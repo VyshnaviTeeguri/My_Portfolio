@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teeguri Vyshnavi - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Vyshnavi</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills/Certifications</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="content">
+            <h1>Teeguri Vyshnavi</h1>
+            <h2 class="role">Full Stack <span>Developer</span></h2>
+            <p>Passionate about creating innovative web solutions with expertise in full-stack technologies.
+                I'm a dedicated developer with a passion for creating efficient and innovative web applications. 
+                With strong skills in both frontend and backend technologies, I transform complex problems into elegant digital solutions.
+            </p>
+            <div class="buttons">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="my_pic.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1 class="section-title">My <span>Skills/Certifications</span></h1>
+        <div class="skills-container">
+            <div class="skills-section">
+                <div class="skills-row">
+                    <div class="skill-box">
+                        <h3>Frontend Technologies</h3>           
+                        <p>HTML</p>                   
+                        <p>CSS</p>               
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-box">
+                        <h3>Backend Technologies</h3>
+                        <p>Node.js</p>
+                        <p>Python</p>
+                        <p>Database</p>
+                    </div>
+                </div>
+                <div class="skills-row">
+                    <div class="skill-box">
+                        <h3>Non-Technical Skills</h3>
+                        <p>Goal Setting & Time Management</p>
+                        <p>Problem-Solving</p>
+                        <p>Communication & Presentation</p>
+                        <p>Research & Critical Thinking</p>
+                    </div>
+                </div>
+            </div>
+            <div class="certifications-container">
+                <div class="certification-images">
+                    <img src="Full Stack(infosys).png" alt="Certification 1">
+                    <img src="Full Stack-(AICTE).png" alt="Certification 2">
+                    <img src="Full Stack(Hackerrank).png" alt="Certification 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1 class="section-title">My <span>Projects</span></h1>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Food Delivery App</h3>
+                <div class="project-technologies">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JS</span>
+                </div>
+                <p>A fast and user-friendly food delivery app connecting users with their favorite restaurants.</p>
+                <div class="project-links">
+                    <a href="https://github.com/VyshnaviTeeguri/Food-Delivery-App" target="_blank">Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Dictionary App</h3>
+                <div class="project-technologies">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <p>A simple and interactive dictionary app that allows users to search for word meanings with a clean and user-friendly interface.</p>
+                <div class="project-links">
+                    <a href="https://github.com/VyshnaviTeeguri/Dictionary_App" target="_blank">Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>To-do-list-app</h3>
+                <div class="project-technologies">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">React</span>
+                </div>
+                <p> To-Do List App that helps users manage tasks efficiently by adding, marking as complete, and deleting them.</p>
+                <div class="project-links">
+                    <a href="https://github.com/VyshnaviTeeguri/To-do-list-app" target="_blank">Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h1 class="section-title">My <span>Experience</span></h1>
+        <div class="experience-container">
+            <div class="experience-box">
+                <span>Mar - Apr 2024📅</span>
+                <h3>Web Development Intern</h3>
+                <p>Bharat Intern</p>
+                <p>Worked on building responsive web applications using HTML,CSS,JavaScript, improving user experience and optimizing performance.</p>
+            </div>
+            <div class="experience-box">
+                <span>Oct - Dec 2024 📅</span>
+                <h3>Web Full Stack Virtual Intern</h3>
+                <p>AICTE</p>
+                <p>The AICTE Web Full Stack Internship offers hands-on experience in developing complete web applications using modern technologies.</p>
+            </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="section-title">Contact <span>Me</span></h1>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="button" onclick="sendEmail()">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    
+    <div class="links-container" style="display: flex; justify-content: space-around; color: white; padding: 20px; background-color: black; border-radius: 10px;">
+        <div class="link-box" style="margin-right: 20px; border-radius: 10px; padding: 10px; background-color: #f0f0f0; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#00e673'" onmouseout="this.style.backgroundColor='#f0f0f0'">
+            <a href="https://github.com/VyshnaviTeeguri" target="_blank" style="color: black; text-decoration: none; display: flex; align-items: center; gap: 5px;">
+                <i class="fa-brands fa-github"></i>
+                <b>GitHub</b>
+            </a>
+        </div>
+        <div class="link-box" style="margin-right: 20px; border-radius: 10px; padding: 10px; background-color: #f0f0f0; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#00e673'" onmouseout="this.style.backgroundColor='#f0f0f0'">
+            <a href="https://www.linkedin.com/in/vyshnaviteeguri/" target="_blank" style="color: black; text-decoration: none; display: flex; align-items: center; gap: 5px;">
+                <i class="fa-brands fa-linkedin"></i>
+                <b>LinkedIn</b>
+            </a>
+        </div>
+        <div class="link-box" style="margin-right: 20px; border-radius: 10px; padding: 10px; background-color: #f0f0f0; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#00e673'" onmouseout="this.style.backgroundColor='#f0f0f0'">
+            <a href="https://www.cloudskillsboost.google/public_profiles/2a2c0fa9-3912-4bd9-8ccf-f1bb78e1a1ac" target="_blank" style="color: black; text-decoration: none; display: flex; align-items: center; gap: 5px;">
+                <i class="fa-brands fa-google"></i>
+                <b>GCP</b>
+            </a>
+        </div>
+        <div class="link-box" style="margin-right: 20px; border-radius: 10px; padding: 10px; background-color: #f0f0f0; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#00e673'" onmouseout="this.style.backgroundColor='#f0f0f0'">
+            <a href="mailto:teegurivyshnavi@gmail.com" style="color: black; text-decoration: none; display: flex; align-items: center; gap: 5px;">
+                <i class="fa-solid fa-envelope"></i>
+                <b>Email</b>
+            </a>
+        </div>
+    </div>
+    <p style="margin:10px">&copy; 2025 Teeguri Vyshnavi. All rights reserved.</p>
+</body>
+</html>
